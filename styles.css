@@ -1,0 +1,106 @@
+/* made all element with 0 margin and padding + all font color is now brown */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  color: rgb(42, 33, 27);
+}
+
+/* style for logo */
+.brand-title {
+  font-size: 1.5rem;
+  margin: .5rem;
+  font-weight: bold;
+  color: rgb(25, 98, 61);
+}
+
+.navbar {
+  padding: 5rem;
+}
+/* style for navbar */
+.navbar-links ul {  
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+/* style for the listed elements so they will be side to side */
+.navbar-links li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+/*style for navbar elements: Work, Illustration, and About Me because they are lists*/
+.navbar-links li a {
+  color: rgb(58, 49, 41);
+  display: block;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: background-color 350ms ease, color 350ms ease;
+  text-decoration: none;
+}
+  
+/* Change the color of links on hover */
+.navbar-links li a:hover {
+  color: rgb(25, 98, 61);
+  background-color: rgb(25, 98, 61, 0.1);
+}
+
+/* hamburger space */
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+/* hamburger lines */
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color:  rgb(58, 49, 41);
+  border-radius: 10px;
+}
+
+/* 750px or lower, the hamburger will show*/
+@media (max-width: 750px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  /* hides element when hamburger is there */
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links li a {
+    padding: .5rem 1rem;
+  } 
+
+  /* make elements in hamburger appear when pressed on*/
+  .navbar-links.active {
+    display: flex;
+  }
+}
