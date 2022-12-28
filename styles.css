@@ -6,19 +6,50 @@
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   color: rgb(42, 33, 27);
+  font-size: 1.5vw;
 }
 
 /* style for logo */
 .brand-title {
   font-size: 1.5rem;
-  margin: .5rem;
   font-weight: bold;
   color: rgb(25, 98, 61);
 }
 
+/* allow images to be responsive while keeping their width */
+.responsive {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.linkBox {
+  background-color: rgb(25, 98, 61, 0.1);
+  display: inline;
+  padding-left: .2em;
+  padding-right: .2em;
+  border-radius: .1em;
+  font-size: 1.25rem;
+  color: rgb(25, 98, 61);
+}
 .navbar {
   padding: 5rem;
 }
+
+.landingPage {
+  padding: 5rem;
+  padding-top: 2rem;
+}
+.showcase {
+  padding: 5rem;
+}
+
+.greentext {
+  color: rgb(25, 98, 61);
+  font-weight: bold;
+}
+
 /* style for navbar */
 .navbar-links ul {  
   display: flex;
@@ -103,4 +134,23 @@
   .navbar-links.active {
     display: flex;
   }
+}
+
+.landingPageRow {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.colL {
+  width: 55%;
+}
+
+.colR {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.current {
+  padding-top: 2rem;
 }
