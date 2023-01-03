@@ -11,7 +11,7 @@
 
 /* style for logo */
 .brand-title {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
   color: rgb(25, 98, 61);
 }
@@ -24,25 +24,31 @@
   margin-right: auto
 }
 
+/* decorative link box */
 .linkBox {
   background-color: rgb(25, 98, 61, 0.1);
   display: inline;
-  padding-left: .2em;
-  padding-right: .2em;
-  border-radius: .1em;
+  padding: .5rem 1.1rem;
+  border-radius: 1vh;
   font-size: 1.25rem;
   color: rgb(25, 98, 61);
 }
+
+/* ---------------- PADDING FOR SECTIONS ---------------- */
 .navbar {
   padding: 5rem;
+  position: fixed;
+  top: 0
 }
 
 .landingPage {
   padding: 5rem;
   padding-top: 2rem;
 }
-.showcase {
-  padding: 5rem;
+
+.myWork{
+  padding: 4rem;
+  padding-top: .5rem;
 }
 
 .greentext {
@@ -50,6 +56,14 @@
   font-weight: bold;
 }
 
+.footerContainer {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+/* ---------------- NAV BAR SECTION ---------------- */
 /* style for navbar */
 .navbar-links ul {  
   display: flex;
@@ -83,7 +97,7 @@
 /* hamburger space */
 .toggle-button {
   position: absolute;
-  top: .75rem;
+  top: 1rem;
   right: 1rem;
   display: none;
   flex-direction: column;
@@ -102,6 +116,10 @@
 
 /* 750px or lower, the hamburger will show*/
 @media (max-width: 750px) {
+  .brand-title {
+    font-size: 20px;
+  }
+
   .toggle-button {
     display: flex;
   }
@@ -136,6 +154,8 @@
   }
 }
 
+/* ---------------- LANDING PAGE SECTION ---------------- */
+
 .landingPageRow {
   display: flex;
   align-items: center;
@@ -153,4 +173,265 @@
 
 .current {
   padding-top: 2rem;
+}
+
+/* ---------------- PROJECT SECTION ---------------- */
+
+
+/* text for tag for type of project */
+.tagCategory {
+  font-size: 16px;
+  line-height: 1.88em;
+  font-weight: 500;
+  color: white;
+}
+
+/* tag wrapper */
+.tagWrapper {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 21px;
+  padding: 6px 14px;
+  border-radius: 10px;
+  background-color: rgb(58, 49, 41);
+}
+
+/* grid for the cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+/* whole card */
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+/* card backgroud appearance */
+.cardBackground {
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 rgba(39, 25, 77, 0.02), 0 3px 20px 0 rgba(112, 81, 239, 0.04), 0 10px 28px 0 rgba(39, 25, 77, 0.03);
+  overflow: hidden;
+}
+
+/* project's image cover (upper half of the card) */
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  transition: 350ms ease-in-out;
+}
+.card_image {
+  overflow: hidden;
+}
+
+/* content inside the card (lower half) */
+.card_content {
+  display: flex;
+  margin-top: -15px;
+  padding-right: 40px;
+  padding-bottom: 70px;
+  padding-left: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: start;
+  align-items: flex-start;
+}
+
+.card_title {
+  color:rgb(58, 49, 41);
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.card_text {
+  color:rgb(58, 49, 41);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* wrapper for "view study case" section */
+.viewCSWrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* "view study case" text */
+.viewCS {
+  color: rgb(25, 98, 61) ;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.arrow {
+  border: solid rgb(25, 98, 61);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+  margin-right: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transition: 350ms ease-in-out;
+}
+
+.arrowWrapper {
+  display: flex;
+  height: 33px;
+  min-width: 33px;
+  margin-left: 13px;
+  justify-content: center;
+  background-color: rgb(25, 98, 61, 0.1);
+  border-radius: 10px;
+  align-items: center;
+  transition: 350ms ease-in-out;
+}
+
+.cardLink {
+  text-decoration: none;
+  transition: 350ms ease-in-out;
+}
+
+/* ------- ANIMATIONS FOR PROJECT CARDS ------- */
+ .cardLink:hover {
+  transition: 350ms ease-in-out;
+  transform: scale(1.02);
+} 
+
+.cardLink:hover #arrowBackground{
+  transition: 350ms ease-in-out;
+  background-color: rgb(25, 98, 61);
+} 
+
+.cardLink:hover #zoomImage{
+  transform: scale(1.1);
+  transition: 350ms ease-in-out;
+} 
+
+.cardLink:hover #arrowColor{
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+  margin-right: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transition: 350ms ease-in-out;
+} 
+
+/* ------- screen sizes ------- */
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+/* ---------------- FOOTER SECTION ---------------- */
+.footerColL {
+  width: 70%;
+}
+.footerColR {
+  width: 30%;
+  align-self: center;
+}
+
+.footerPageRow {
+  display: flex;
+  align-items: center;
+}
+
+.topAllign {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 70%;
+}
+
+.footerArrowWrapper {
+  padding-left: 70%;
+  display: inline-block;
+  align-self: center;
+}
+
+.footerArrow {
+  border: solid rgb(25, 98, 61);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transition: 350ms ease-in-out;
+}
+
+.footerArrowBackground {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  margin-left: 13px;
+  justify-content: center;
+  background-color: rgb(25, 98, 61, 0.1);
+  border-radius: 10px;
+  align-items: center;
+  transition: 350ms ease-in-out;
+}
+
+.contacts a {
+  text-decoration: none;
+  margin-right: 10px;
+  transition: 350ms ease-in-out;
+}
+
+/* ------- ANIMATIONS ------- */
+.footerArrowBackground:hover #footerArrow{
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transition: 350ms ease-in-out;
+} 
+
+.footerArrowBackground:hover {
+  transition: 350ms ease-in-out;
+  background-color: rgb(25, 98, 61);
+} 
+
+#email:hover {
+  transition: 350ms ease-in-out;
+  transform: translateY(-3px);
+}
+
+#github:hover {
+  transition: 350ms ease-in-out;
+  transform: translateY(-3px);
+}
+
+#linkedin:hover {
+  transition: 350ms ease-in-out;
+  transform: translateY(-3px);
+}
+
+.lastUpdated {
+  text-align: center;
+  color: rgb(25, 98, 61);;
+  font-size: 16px;
+} 
+
+.copyright {
+  text-align: center;
+  color: rgb(25, 98, 61);;
+  font-size: 18px;
 }
