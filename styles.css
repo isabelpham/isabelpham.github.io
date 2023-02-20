@@ -63,6 +63,12 @@
   padding-top: 1rem;
 }
 
+.caseStudy {
+  padding-right: 8rem;
+  padding-left: 8rem;
+}
+
+
 /* ---------------- NAV BAR SECTION ---------------- */
 /* style for navbar */
 .navbar-links ul {  
@@ -159,7 +165,7 @@
 .landingPageRow {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
 .colL {
@@ -434,4 +440,185 @@ img {
   text-align: center;
   color: rgb(25, 98, 61);;
   font-size: 18px;
+}
+
+/* ------------------------------- Project Page ----------------------------------------------- */
+
+.bodyText {
+font-size: 20px;
+}
+
+.headerText {
+  font-weight: 500;
+}
+
+.headerPic {
+  border-radius: 10px;
+}
+
+.CSPageRow {
+  display: flex;
+  align-items: top;
+  justify-content: top;
+  padding-top: 2rem;
+}
+
+.CScolL {
+  width: 70%;
+}
+
+.CScolR {
+  width: 30%;
+  padding-left: 50px;
+}
+
+/* ------------------------------- Project Page ----------------------------------------------- */
+.bodyText {
+  font-size: 20px;
+  margin-bottom: .2rem;
+}
+
+.headerText {
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(25, 98, 61);
+  margin-bottom: 0px;
+}
+
+.headerText1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(25, 98, 61);
+}
+
+.headerText2 {
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 0px;
+}
+
+.headerText3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: .2rem;
+}
+
+.headerPic {
+  border-radius: 10px;
+}
+
+.CSDetails {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.CaseSection {
+  padding-top: 2rem;
+}
+
+.CScontent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.CSLeft {
+  width: 30%;
+  padding-right: 5%;
+}
+
+.CSRight{
+  width: 65%;
+  margin-top: 40px;
+}
+
+.SCPic {
+  width: 55%;
+  padding-right: 5%;
+}
+
+.SCWriteUp{
+  width: 40%;
+  margin-top: 40px;
+}
+
+.imageSize {
+  height: 70%;
+  width: 70%;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.imageSizeShadow {
+  height: 70%;
+  width: 70%;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 5px 0 rgba(39, 25, 77, 0.02), 0 3px 20px 0 rgba(112, 81, 239, 0.04), 0 10px 28px 0 rgba(39, 25, 77, 0.03);
+}
+
+.imageWrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.problemStatement {
+  background-color: rgb(25, 98, 61);
+  margin-top: 40px;
+  padding: 30px;
+  padding-right: 80px;
+  padding-left: 80px;
+  border-radius: 10px;
+  color: white;
+}
+
+.showCase {
+  margin-top: 60px;
+}
+
+.showCaseCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.showCaseContent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rightTitleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+
+/* ------- screen sizes ------- */
+@media (max-width: 1046px) {
+  .CSDetails {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .CScontent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .CSLeft {
+    width: 100%;
+  }
+  
+  .CSRight{
+    width: 100%;
+  }
+  
 }
