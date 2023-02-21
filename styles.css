@@ -517,6 +517,11 @@ font-size: 20px;
   padding-top: 2rem;
 }
 
+.CScontentWrapper {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
 .CScontent {
   display: flex;
   justify-content: space-between;
