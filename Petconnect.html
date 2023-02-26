@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Isabel Pham
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Isabel Pham" content="Isabel Pham">
+  <meta name="home" content="Isabel Pham's portfolio containing information and projects I have done in the past.">
+   <!-- you would link to an external stylesheet here! -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+   
+   <!-- link css and javascript here -->
+   <link rel="stylesheet" href="styles.css">
+   <script src="script.js" defer></script>
+   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+   <!-- link aos animation here -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- you would also link to Bootstrap here! -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous"> 
+   <title>isabel pham | Nova</title>
+   <link rel="icon" type="image/png" href="images/logo.svg">
+
+</head>
+
+<body>
+
+ <!-- Navagation bar with links to projects, illustrations,and about me -->
+  <nav class= "navbar" id="top">
+    <div class="brand-title">isabel pham</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href= "index.html">work</a></li>
+        <li><a href="#">illustrations</a></li>
+        <li><a href="#">about me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- page content -->
+<div class="caseStudy"> 
+  <img class="headerPic" src="images/PetConnect/cover.jpg" alt="A header picture for PetConnect containing some screens of the application.">
+  <!-- Project overview section -->
+  <div data-aos="fade-up" class="CaseSection">
+    <h1 style= "margin-bottom: 20px" class="headerText">PetConnect</h1>
+    <div style="margin-bottom: 20px;">
+      <p style= "margin-bottom: 0px" class="headerText2">Project Overview</p>
+      <p class="bodyText">This case study was created in Winter 2021 Design at UCI’s Project Teams. ​​​​​​New and existing pet owners have a hard time accessing pet related resources and information when obtaining a pet, possibly supporting unethical organizations unknowingly.
+        ​PetConnect is an application that conveniently provides pet resources and connects potential pet owners to pet businesses on a singular source.
+      </p>
+    </div>
+    <div class="CSDetails">
+      <div>
+        <p class="headerText2">Duration</p>
+        <p class="bodyText">January 2021 - March 2021</p>
+        <p class="bodyText">10 weeks</p>
+      </div>
+      <div>
+        <p class="headerText2">Role</p>
+        <p class="bodyText">UX/UI Designer and Researcher</p>
+      </div>
+      <div>
+        <p class="headerText2">Tools</p>
+        <img style="width: 27px; height:40.48px;" src="images/icons/figmaIcon.svg" alt="">
+      </div>
+      <div>
+        <p class="headerText2">Team</p>
+        <p class="bodyText">Meghna Kaligotla</p>
+        <p class="bodyText">Vivian Lin</p>
+        <p class="bodyText">Zoya Soy</p>
+      </div>
+    </div>
+  </div>
+
+<!-- Research -->
+  <!-- Comp analysis -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Research</p>
+        <p class="headerText2">Competitive Analysis</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText">We started our research with competitive analysis. For competitive analysis, we found other websites that had similar use as our application. The columns represents the websites we care doing our competitive analysis with and the row represents a feature present in the applications we evaluated. Through these analysis, we analyzed what these websites lacked and what we could do different things to be unique.</p>
+      </div>
+    </div>
+    <div class="imageWrapper">
+      <img class="imageSizeShadow" src="images/PetConnect/Competitive Analysis (Community).png" alt="Competitive Analysis that displays the cons and pros of other competitors.">
+    </div>
+  </div>
+
+  <!-- Initial Survey​​​​​​​ -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Research</p>
+        <p class="headerText2">Initial Survey​​​​​​​</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText">To begin the preliminary research, my team decided to send out an initial survey through google forms. After 59 responses, we found that most people got their pets through adoption, breeders, or pet stores. ‍
+            To further understand how the application can maximize a good experience for users, we asked for suggestions on what helpful features should be implemented to the applications that have not been mentioned yet. 
+            Unique suggestions that we took into consideration were a quiz that suggests a specific pet that accommodates potential owners’ lifestyles based on their answers. A feature to screen pet businesses to decrease the chances of working with an untrustworthy unethical breeder or adoption center.
+        </p>
+      </div>
+    </div>
+    <div class="imageWrapper">
+      <img style="height: 50%; width: 50%;" class="imageSize" src="images/PetConnect/petConnect survey.png" alt="Initial Survey​​​​​​​ that displays the majority choice that users get their pet from.">
+    </div>
+  </div>
+
+  <!-- Problem Statement -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Define</p>
+        <p class="headerText2">Problem Statment</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText"> 
+        </p>
+      </div>
+    </div>
+    <div class="problemStatement">
+      <p style="color:white; margin-bottom: 0px;" class="headerText2">New and existing pet owners can access resources all across the Internet (not from a singular source) and can search for pet businesses, such as breeders and adoption centers, using a regular search engine.</p>
+    </div>
+  </div>
+
+  <!-- Ideation -->
+  <!-- User Flow -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Ideation</p>
+        <p class="headerText2">User Flow</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText">Before creating our initial wireframes, we brainstormed the user flow of both pet owners and businesses. As potential pet owners, users can access many resources such as finding pet businesses, VetMap, and messages. 
+            For business owners, users can promote their profile by adding new pets, editing their profile, and reaching out to potential pet owners.
+        </p>
+      </div>
+    </div>
+    <div class="imageWrapper">
+      <img class="imageSize" src="images/PetConnect/userFlow.png" alt="Userflow for pet owners and businesses when using PetConnect.">
+    </div>
+  </div>
+ 
+  <!-- Sketches -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Research</p>
+        <p class="headerText2">Sketches</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText">Looking at the user flow for references, we planned out PetConnect’s initial wireframe easier. The initial wireframe helped us plan out the top navigation bar, pages, and login screen. 
+            On the top bar, users are able to access settings and notifications. The home, resources, messages, VetMap, and profile page are navigated through the bottom navigation bar. 
+            For the login screen, there are two options: new users will sign up as potential pet or business owners and existing owners will log in with their information.</p>
+      </div>
+    </div>
+    <div class="imageWrapper">
+      <img class="imageSize" src="images/PetConnect/LowFi.png" alt="Sketches for PetConnect.">
+    </div>
+  </div>
+
+  <!-- Color and Typography -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Design</p>
+        <p class="headerText2">Color and Typography</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText">For our application, we finalized a style guide to use as we move on to high-fidelity prototypes. Our team decided to choose round typography and warm colors to provide a friendly atmosphere for our users when they use PetConnect.</p>
+      </div>
+    </div>
+      <div class="imageWrapper">
+        <img class="imageSize" src="images/PetConnect/StyleGuide.png" alt="Design system for PetConnect's Color and Typography.">
+      </div>
+  </div>
+
+  <!-- Usability Testing -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Iterate</p>
+        <p class="headerText2">Usability Testing</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText">I was in charge of creating the notifications, settings, home, resources, VetMap, messages, user profile pages. After we finished our high-fidelity prototype, we have conducted 7 usability testing to get feedback on our application. Key changes that we concluded from the usability testing are:‍ 
+        </p>
+      </div>
+    </div>
+    <div class="showCaseCol">
+      <!-- Admin Updates -->
+      <div class="showCase">
+        <div class="showCaseContent">
+          <div class="SCPic">
+            <div class="imageWrapper">
+              <img class="imageSize" src="images/PetConnect/ErrorPrevention  .png" alt="Before and after pictures of the Error Prevention.">
+            </div>
+          </div>
+          <div class="SCWriteUp">
+            <p class="headerText3">Error Prevention</p>
+            <p class="bodyText">When signing up or logging in, text fields and buttons were the same color. To prevent errors made by the user, we utilized color to reflect differences between elements.</p>
+          </div>
+        </div>
+      </div>
+      <div class="showCase">
+        <div class="showCaseContent">
+          <div class="SCWriteUp">
+            <p class="headerText3">Provide better feedback</p>
+            <p class="bodyText">There was a lot of confusion after the user took the pet quiz. To resolve this confusion, we display and have a popup of the result after the quiz. Another confusion is using checkmarks for the quiz, which makes the user assume that there can be multiple answers. To make sure the user knows it is a one-answer quiz, we turned the checkboxes into a dotted circle.</p>
+          </div>
+          <div class="SCPic">
+            <div class="imageWrapper">
+              <img class="imageSize" src="images/PetConnect/ProvideFeedback.png" alt="Before and after pictures of Petconnecting providing better feedback.">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="showCase">
+        <div class="showCaseContent">
+          <div class="SCPic">
+            <div class="imageWrapper">
+              <img class="imageSize" src="images/PetConnect/ReduceConfusion .png" alt="Before and after of reducing confusiong to the create post module.">
+            </div>
+          </div>
+          <div class="SCWriteUp">
+            <p class="headerText3">Reduce confusion </p>
+            <p class="bodyText">For the post feature, we wanted to make it as simple as possible. However, the simplicity of the post feature made a lot of the users confused and did not know what exactly it did. To fix this conclusion, we added more detailed inputs and redefined the meaning of the post.</p>
+          </div>
+        </div>
+      </div>
+      <div class="showCase">
+        <div class="showCaseContent">
+          <div class="SCWriteUp">
+            <p class="headerText3">Have help and documentation</p>
+            <p class="bodyText">Since we did have a lot of unique features, first-time users might be overwhelmed and not know where to start or how to use some of the features. To accommodate this, we have added a help popup where our mascot, Zuko, explains step by step what each feature is to the user.</p>
+          </div>
+          <div class="SCPic">
+            <div class="imageWrapper">
+              <img class="imageSize" src="images/PetConnect/HelpNDoc.png" alt="Displays Zuko, Petconenct's maschot, giving the new user a tour of the application.">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Final -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Solution</p>
+        <p class="headerText2">Final Designs</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText">For our final design we created an onboarding process that allows users to create an account by inputting your personal information. After they are finished creating an account, take a quiz that will determine what pet is best suited for them. On pages, users can gain access to numerous pet resources to help them easily settle in their pet life; search the nearest veterinarian near them with VetMaps in urgent situations; and easily connect with pet businesses to communicate their needs. Finally, users can update their information on the profile page to filter posts to their preferences while letting pet businesses know what their are looking for.</p>
+      </div>
+    </div>
+    <div class="imageWrapper">
+        <img class="imageSize" src="images/PetConnect/final.png" alt="Wireframs of all the pages on Petconnect.">
+    </div>
+    </div>
+     
+  <!-- Reflection -->
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p class="headerText2">Reflection</p>
+      </div>
+      <div class="CSRight">
+      </div>
+    </div>
+  <p class="bodyText">Initially, we had many ideas when we were planning and realized that we couldn’t implement everything. With the numerous features, we were able to implement, we realized our flows were very confusing and weren’t working out during usability testing. Since there was a lot of confusion during usability testing, we had to make any changes. 
+    Some key takeaways I learned from this case study is to be more organized and consistent because it is important to plan first rather than jumping in and having a lot to fix later. For our next steps, I want to be able to do more usability testing and get more user feedback to improve our designs. Review the flow by adding clearer icons, new overlaps, card sorting, and making sure our logic makes sense to our users. 
+    Although this was my first time working on a case study and designing, I felt very enlighten and gained so many ideas on how to improve my designing skills when I tackle my next project! 
+    </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="otherWork">
+  <div data-aos="fade-up" class="myWork">
+    <h5 class="greentext" style="padding-left:1rem;">Check out my other work!</h5>
+    <ul class="cards">
+      <!-- card for abound food care -->
+      <a class="cardLink" href="AFC.html">
+        <li class="cards_item">
+          <div class="cardBackground">
+            <div class="card_image"><img src="images/AFC/AFC_Cover-01.png" id="Cover picture for Abound Food Care."></div>
+            <div class="card_content">
+              <div class="tagWrapper">
+                <div class="tagCategory">ux/ui design</div>
+              </div>
+              <h3 class="card_title">Abound Food Care</h3>
+              <div class="viewCSWrapper">
+                <div class="viewCS">view case study</div>
+                <div class="arrowWrapper" id="arrowBackground">
+                  <div class="arrow" id="arrowColor"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- card for abound clover -->
+      <a class="cardLink" href="">
+        <li class="cards_item">
+          <div class="cardBackground">
+            <div class="card_image"><img src="images/Clover/Clover heading.png" id="zoomImage"></div>
+            <div class="card_content">
+              <div class="tagWrapper">
+                <div class="tagCategory">ux/ui design</div>
+              </div>
+              <h3 class="card_title">Clover</h3>
+              <div class="viewCSWrapper">
+                <div class="viewCS">view case study</div>
+                <div class="arrowWrapper" id="arrowBackground">
+                  <div class="arrow" id="arrowColor"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- card for abound nova -->
+      <a class="cardLink" href="Nova.html">
+        <li class="cards_item">
+          <div class="cardBackground">
+            <div class="card_image"><img src="images/Nova/NovaCover.png" id="zoomImage"></div>
+            <div class="card_content">
+              <div class="tagWrapper">
+                <div class="tagCategory">ux/ui design</div>
+              </div>
+              <h3 class="card_title">Nova</h3>
+              <div class="viewCSWrapper">
+                <div class="viewCS">view case study</div>
+                <div class="arrowWrapper" id="arrowBackground">
+                  <div class="arrow" id="arrowColor"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+    </ul>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<div class="footerContainer">
+  <div class="footerPageRow">
+    <div class="topAllign"> 
+      <div class="footerColL">
+        <h5 class="greentext"> Thank you for stopping by ٩(＾◡＾)۶</h5>
+        <h6> Got questions or feedback? Feel free to reach out and contact me at inpham@uci.edu!</h6>
+        <div class="contacts" style="margin-bottom: 10px;"> 
+          <a href="mailto:inpham@uci" target="_blank"><img src="icons/iconmonstr-email-2.svg" alt="icon for email." id="email">
+          <a href="https://github.com/isabelpham" target="_blank"><img src="icons/iconmonstr-github-3.svg" alt="icon for github." id="github"></a>
+          <a href="https://www.linkedin.com/in/isabe1pham/" target="_blank"><img src="icons/iconmonstr-linkedin-3.svg" alt="icon for linkedin." id="linkedin"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footerColR">
+      <a href="#top">
+        <div class="footerArrowWrapper">
+          <div class="footerArrowBackground">
+            <div class="footerArrow" id="footerArrow"></div>
+          </div>
+        </div>
+      </a>      
+      </div>
+  </div>
+    <div class="lastUpdated">Last updated January 5, 2023</div>
+  </div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</body>
+</html>
