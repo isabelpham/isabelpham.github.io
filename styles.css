@@ -41,9 +41,16 @@
   top: 0
 }
 
+.navWrapper {
+  width:100%;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+}
+
 .landingPage {
   padding: 5rem;
-  padding-top: 2rem;
+  padding-top: 7rem;
 }
 
 .myWork{
@@ -66,6 +73,7 @@
 .caseStudy {
   padding-right: 8rem;
   padding-left: 8rem;
+  padding-top: 7rem;
 }
 
 
