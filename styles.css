@@ -14,6 +14,12 @@
   font-size: 1rem;
   font-weight: bold;
   color: rgb(25, 98, 61);
+  text-decoration: none;
+}
+
+/* style for logo */
+.brand-title:hover {
+  color: rgb(25, 98, 61);
 }
 
 /* allow images to be responsive while keeping their width */
@@ -49,6 +55,11 @@
 }
 
 .landingPage {
+  padding: 5rem;
+  padding-top: 7rem;
+}
+
+.aboutPage {
   padding: 5rem;
   padding-top: 7rem;
 }
@@ -635,3 +646,76 @@ font-size: 20px;
   }
   
 }
+
+/* ------------------------------- About Page ----------------------------------------------- */
+
+.aboutPageRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.resumeButtonWrapper {
+  padding: 30px;
+}
+.resumeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(25, 98, 61, 0.1);
+  border-radius: 10px;
+  transition: 350ms ease-in-out;
+}
+
+.resumeButton:hover {
+  transition: 350ms ease-in-out;
+  background-color: rgb(25, 98, 61);
+} 
+
+.resumeButton:hover p {
+  transition: 350ms ease-in-out;
+  color: white;
+} 
+
+.aboutColL {
+  width: 55%;
+  margin-right: 5%;
+}
+
+.aboutColR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+/* ------- screen sizes ------- */
+@media (max-width: 800px) {
+  .aboutPageRow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }  
+
+  .aboutColL {
+    width: 100%;
+    margin-right: 0%;
+  }
+
+  .aboutColR {
+    width: 100%;
+  }
+}
+
+/* ------------------------------- Illustrations ----------------------------------------------- */
+
+.illustrationDisplay {
+  display: flex;
+  gap: 40px;
+}
+

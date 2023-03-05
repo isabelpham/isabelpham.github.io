@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Isabel Pham
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Isabel Pham" content="Isabel Pham">
+  <meta name="home" content="Isabel Pham's portfolio containing information and projects I have done in the past.">
+   <!-- you would link to an external stylesheet here! -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+   
+   <!-- link css and javascript here -->
+   <link rel="stylesheet" href="styles.css">
+   <script src="script.js" defer></script>
+   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+   <!-- link aos animation here -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- you would also link to Bootstrap here! -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous"> 
+   <title>isabel pham | EmpowHer</title>
+   <link rel="icon" type="image/png" href="images/logo.svg">
+
+</head>
+
+<body>
+ <!-- Navagation bar with links to projects, illustrations,and about me -->
+ <div class="navWrapper">
+  <nav class= "navbar">
+    <a href="index.html" class="brand-title">isabel pham</a>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a style="color:  rgb(25, 98, 61);"href= "index.html">work</a></li>
+        <li><a href="illustrations.html">illustrations</a></li>
+        <li><a href="aboutMe.html">about me</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+<!-- page content -->
+<div class="caseStudy" id="top"> 
+    <img class="headerPic" src="images/EmpowerHer/cover.png" alt="A header picture for EmpowHer containing some screens of the application.">
+    <!-- Project overview section -->
+    <div data-aos="fade-up" class="CaseSection">
+      <h1 style= "margin-bottom: 20px" class="headerText">EmpowHer</h1>
+      <div style="margin-bottom: 20px;">
+        <p style= "margin-bottom: 0px" class="headerText2">Project Overview</p>
+        <p class="bodyText">This case study was created in Spring 2021 Design at UCI’s Project Teams. ​​​​​​​Finding a safe space for women that includes advice and information varies across different platforms, resulting in difficulties when finding specific information. Even if that platform does provide these resources, users often have to pay a subscription to join. EmpowHer is an application that provides a platform for women to educate or empower other women through event webinars and forums. </p>
+      </div>
+      <div class="CSDetails">
+        <div>
+          <p class="headerText2">Duration</p>
+          <p class="bodyText">April 2021 - June 2021</p>
+          <p class="bodyText">10 weeks</p>
+        </div>
+        <div>
+          <p class="headerText2">Role</p>
+          <p class="bodyText">UX/UI Designer and Researcher</p>
+        </div>
+        <div>
+          <p class="headerText2">Tools</p>
+          <img style="width: 27px; height:40.48px;" src="images/icons/figmaIcon.svg" alt="Figma Icon">
+        </div>
+        <div>
+          <p class="headerText2">Team</p>
+          <p class="bodyText">Kaitlyn Suzuki</p>
+          <p class="bodyText">Vivian Lin</p>
+          <p class="bodyText">Zoya Soy</p>
+        </div>
+      </div>
+    </div>
+  
+  <!-- Research -->
+    <!-- Comp analysis -->
+    <div data-aos="fade-up" class="CScontentWrapper">
+      <div class="CScontent">
+        <div class="CSLeft">
+          <p style="margin-bottom: 0px;" class="headerText1">Research</p>
+          <p class="headerText2">Competitive Analysis</p>
+        </div>
+        <div class="CSRight">
+          <p class="bodyText">We researched many different products that had similar purposes or features to EmpowHer and compare them to what we have to offer. The websites we mainly looked towards were: Reddit, a website with thousands of user-run forums; Peanut, a network for mothers to connect to each other and discuss motherhood; Girlboss, a website that provides resources and community to help women in their personal and professional development. Two of the main features we were looking to include were creating a community forum for users and providing useful resources. We checked these applications to see their functions, see what they lacked, and improve it in our application.</p>
+        </div>
+      </div>
+      <div class="imageWrapper">
+        <img class="imageSizeShadow" src="images/EmpowerHer/Competitive Analysis (Community).png" alt="Competitive Analysis that displays the cons and pros of other competitors.">
+      </div>
+    </div>
+  
+    <!-- User Survey​​​​​​​ -->
+    <div data-aos="fade-up" class="CScontentWrapper">
+      <div class="CScontent">
+        <div class="CSLeft">
+          <p style="margin-bottom: 0px;" class="headerText1">Research</p>
+          <p class="headerText2">User Survey</p>
+        </div>
+        <div class="CSRight">
+          <p class="bodyText">To begin the preliminary research, my team decided to send out an initial survey through google forms. After 59 responses, we found that most people got their pets through adoption, breeders, or pet stores. ‍
+              To further understand how the application can maximize a good experience for users, we asked for suggestions on what helpful features should be implemented to the applications that have not been mentioned yet. 
+              Unique suggestions that we took into consideration were a quiz that suggests a specific pet that accommodates potential owners’ lifestyles based on their answers. A feature to screen pet businesses to decrease the chances of working with an untrustworthy unethical breeder or adoption center.
+          </p>
+          <div style="margin-top: 40px;">
+            <p class="headerText3">- "Providing resources and creating a safe inclusive space."</p>
+          <p class="headerText3">- "Sharing experiences with each other."</p>
+          <p class="headerText3">- “Through events and socials."​​​​​​​</p>
+        </div>
+        </div>
+      </div>
+      <div class="imageWrapper">
+        <img style="height: 50%; width: 50%;" class="imageSize" src="images/EmpowerHer/UserSurvey.png" alt="User Survey​ that displays the majority choice of features that would be useful to learn about self-defense.">
+      </div>
+    </div>
+
+    <!-- Empathy Map​ -->
+    <div data-aos="fade-up" class="CScontentWrapper">
+      <div class="CScontent">
+        <div class="CSLeft">
+          <p style="margin-bottom: 0px;" class="headerText1">Research</p>
+          <p class="headerText2">Empathy Map</p>
+        </div>
+        <div class="CSRight">
+          <p class="bodyText">We collectively built an empathy map by brainstorming some of the feelings, goals, tasks, influences, and pain points of users. This helped influence our creation of user personas by highlighting the user’s potential needs. For example, when building the empathy map, we realized one of the most major goals of EmpowHer is for users to meet and talk to people with similar experiences as them which was then emphasized greatly as a need and goal in both of the personas. One pain point we ran into was the possibility of people getting offended or triggered due to the discussion of a sensitive topic, which prompted us to include the tagging feature within forum posts so that users can filter out topics that may trigger or upset them.</p>
+        </div>
+      </div>
+      <div class="imageWrapper">
+        <img class="imageSize" src="images/EmpowerHer/EmpathyMap.png" alt="Empathy Map that displays findings on feelings, goals, tasks, influences, and pain points of users">
+      </div>
+    </div>
+
+    <!-- Personas -->
+    <div data-aos="fade-up" class="CScontentWrapper">
+        <div class="CScontent">
+          <div class="CSLeft">
+            <p style="margin-bottom: 0px;" class="headerText1">Research</p>
+            <p class="headerText2">Empathy Map</p>
+          </div>
+          <div class="CSRight">
+            <p class="bodyText">Using the information collected from our surveys and empathy maps, we were able to create 2 distinct types of users. With both of these personas, we wanted to provide a community and highlight a variety of different topics for women of different ages and different stages in life.</p>
+          </div>
+        </div>
+        <div class="imageWrapper">
+          <img class="imageSize" src="images/EmpowerHer/Personas.png" alt="Personas that highlight a variety of different topics for women of different ages and different stages in life.">
+        </div>
+      </div>
+  
+
+  <!-- Problem Statement -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Define</p>
+        <p class="headerText2">Problem Statment</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText"> 
+            With Covid restrictions being mandated, it is difficult to find a safe space to learn about rights or other information that is not through in school or parents. Also, it limits the resources women get access to find their community and support one another. With all of these conflicting elements during the hard times of the pandemic, it can decrease women’s mental health or put them at risk because of the lack of knowledge.
+        </p>
+      </div>
+    </div>
+    <div class="problemStatement">
+      <p style="color:white; margin-bottom: 0px;" class="headerText2">How do we design a platform with the resources women need to increase their safety and mental health.</p>
+    </div>
+  </div>
+
+  <!-- Ideation -->
+  <!-- User Flow -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Ideation</p>
+        <p class="headerText2">Information Architecture</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText">Before creating our initial wireframes, we brainstormed the information architecture of the average user of EmpowHer. By focusing on organizing, structuring, and labeling content in an effective and sustainable way helps us to help users find information and complete tasks, which would help us plan the initial wireframes easily.</p>
+      </div>
+    </div>
+    <div class="imageWrapper">
+      <img class="imageSize" src="images/EmpowerHer/Information Ar.png" alt="Information Architecture for each page.">
+    </div>
+  </div>
+ 
+  <!-- Lo-fi wireframes -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Design</p>
+        <p class="headerText2">Lo-fi wireframes</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText">After brainstorming the information architecture, we created low-fidelity wireframes to plan out our application. The initial wireframe helped us plan out the sign up, archive, join the talk, home, and event pages. 
+            To allow users to navigate to past events, we created a page that contained all of the resources for that page so the user can easily access it through the archive page. We designed a home page that allows users to access information to current and upcoming events. 
+            If a user is interested in one of the events, they can signup through our event page. To keep them engage in the community, we created a forums page called "Join the Talk" that allows users to post questions or concerns they might have and give other users who have the information for the topic a chance to answer them.</p>
+      </div>
+    </div>
+    <div class="imageWrapper">
+      <img class="imageSize" src="images/EmpowerHer/lowfi.png" alt="Lo-fi wireframes for EmpowerHer.">
+    </div>
+  </div>
+
+    <!-- Mid-fi wireframes -->
+    <div data-aos="fade-up" class="CScontentWrapper">
+        <div class="CScontent">
+          <div class="CSLeft">
+            <p style="margin-bottom: 0px;" class="headerText1">Design</p>
+            <p class="headerText2">Mid-fi wireframes</p>
+          </div>
+          <div class="CSRight">
+            <p class="bodyText">Visually planning the layout, we created mid-fidelity wireframes to go into detail on where the features should be. In this project, I was in charge of webinar, profile, forum page. 
+                On the webinar page, users can find more information on the events that they are interested in. Users can access activity history and interesting events on their profiles. 
+                Forums allow users to interact with other users and spread their knowledge with one another.</p>
+          </div>
+        </div>
+        <div class="imageWrapper">
+          <img class="imageSize" src="images/EmpowerHer/midfi.png" alt="Mid-fi wireframes for EmpowerHer.">
+        </div>
+      </div>
+
+  <!-- Color and Typography -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Design</p>
+        <p class="headerText2">Color and Typography</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText">Our team decided to choose round typography and cute colors to provide a safe atmosphere for our users when they are using EmpowHer.</p>
+      </div>
+    </div>
+      <div class="imageWrapper">
+        <img class="imageSize" src="images/EmpowerHer/Design System.png" alt="Design system for EmpowHer's Color and Typography.">
+      </div>
+  </div>
+
+  <!-- Usability Testing -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Iterate</p>
+        <p class="headerText2">Usability Testing</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText">We have decided to do usability testing on our mid-fidelity wireframe so we have a better idea of what works and doesn’t before finalizing our application. 
+            We conducted 8 usability testing to get feedback on our application. Key changes that we concluded from the usability testing are:‍
+        </p>
+      </div>
+    </div>
+    <div class="showCaseCol">
+      <!-- Admin Updates -->
+      <div class="showCase">
+        <div class="showCaseContent">
+          <div class="SCPic">
+            <div class="imageWrapper">
+              <img class="imageSize" src="images/EmpowerHer/A:B.png" alt="A side by side comparaison of the screens and the result of the survey of which screen users like better.">
+            </div>
+          </div>
+          <div class="SCWriteUp">
+            <p class="headerText3">A/B Testing</p>
+            <p class="bodyText">When we were making our wireframe, we were stuck on which organization of information we liked the most. The two options we were stuck on were list or card view. With 75% of our users preferring a card view over a list.</p>
+          </div>
+        </div>
+      </div>
+      <div class="showCase">
+        <div class="showCaseContent">
+          <div class="SCWriteUp">
+            <p class="headerText3">Resolving Confusion</p>
+            <p class="bodyText">There was a lot of confusion on our ad post due to the lack of headers. On top of added headers, we also changed it so the post was on the left because people usually read from left to right.‍</p>
+          </div>
+          <div class="SCPic">
+            <div class="imageWrapper">
+              <img class="imageSize" src="images/EmpowerHer/Confusion.png" alt="Before and after pictures of EmpowHer providing better feedback.">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Final -->
+  <div data-aos="fade-up" class="CScontentWrapper">
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p style="margin-bottom: 0px;" class="headerText1">Solution</p>
+        <p class="headerText2">Final Designs</p>
+      </div>
+      <div class="CSRight">
+        <p class="bodyText"></p>
+      </div>
+    </div>
+    <div class="imageWrapper">
+        <img class="imageSize" src="images/EmpowerHer/final1.png" alt="Wireframes of all the pages on EmpowHer.">
+    </div>
+     
+  <!-- Reflection -->
+    <div class="CScontent">
+      <div class="CSLeft">
+        <p class="headerText2">Reflection</p>
+      </div>
+      <div class="CSRight">
+      </div>
+    </div>
+  <p class="bodyText">Due to a time limit resulting in us having to pick a topic we were not familiar with, we felt like more time should’ve been spent on solidifying our idea and settling on the right idea before we created the survey. 
+    On topics that we are not familiar with, it is important to do a lot of research before designing the application; research helped us understand why we were doing this and how to make our design more effective. 
+    Another thing I learned was that brainstorming together on the user flow helped us be on the same page. The next steps for EmpowHer are to conduct more usability testing because we only tested our mid-fidelity; we hope that more testing will resolve most of our potential issues. 
+    During the time of creating this case study, we were planning to create a static website, due to time constraints, we were not able to do so-- we plan on creating that in our next steps as well. Lastly, we hope to publish the website and market it to relevant communities, hoping to help them. 
+    ​​​​​​​</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="otherWork">
+  <div data-aos="fade-up" class="myWork">
+    <h5 class="greentext" style="padding-left:1rem;">Check out my other work!</h5>
+    <ul class="cards">
+      <!-- card for abound food care -->
+      <a class="cardLink" href="AFC.html">
+        <li class="cards_item">
+          <div class="cardBackground">
+            <div class="card_image"><img src="images/AFC/AFC_Cover-01.png" id="Cover picture for Abound Food Care."></div>
+            <div class="card_content">
+              <div class="tagWrapper">
+                <div class="tagCategory">ux/ui design</div>
+              </div>
+              <h3 class="card_title">Abound Food Care</h3>
+              <div class="viewCSWrapper">
+                <div class="viewCS">view case study</div>
+                <div class="arrowWrapper" id="arrowBackground">
+                  <div class="arrow" id="arrowColor"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+       <!-- card for Edsight Redesign -->
+      <a class="cardLink" href="https://medium.com/@mtnguy16/creating-edsight-2-0s-design-system-d0504eee786f" target="_blank">
+        <li class="cards_item">
+          <div class="cardBackground">
+            <div class="card_image"><img src="images/Edsight/EdsightCover.png" id="zoomImage"></div>
+            <div class="card_content">
+              <div class="tagWrapper">
+                <div class="tagCategory">ux/ui design</div>
+              </div>
+              <h3 class="card_title">Edsight Redesign</h3>
+              <div class="viewCSWrapper">
+                <div class="viewCS">view case study</div>
+                <div class="arrowWrapper" id="arrowBackground">
+                  <div class="arrow" id="arrowColor"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- card for abound nova -->
+      <a class="cardLink" href="Nova.html">
+        <li class="cards_item">
+          <div class="cardBackground">
+            <div class="card_image"><img src="images/Nova/NovaCover.png" id="zoomImage"></div>
+            <div class="card_content">
+              <div class="tagWrapper">
+                <div class="tagCategory">ux/ui design</div>
+              </div>
+              <h3 class="card_title">Nova</h3>
+              <div class="viewCSWrapper">
+                <div class="viewCS">view case study</div>
+                <div class="arrowWrapper" id="arrowBackground">
+                  <div class="arrow" id="arrowColor"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+    </ul>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<div class="footerContainer">
+  <div class="footerPageRow">
+    <div class="topAllign"> 
+      <div class="footerColL">
+        <h5 class="greentext"> Thank you for stopping by ٩(＾◡＾)۶</h5>
+        <h6> Got questions or feedback? Feel free to reach out and contact me at inpham@uci.edu!</h6>
+        <!-- TO DO: icons here -->
+        <div class="contacts" style="margin-bottom: 10px;"> 
+          <a href="mailto:inpham@uci" target="_blank"><img src="images/icons/email.svg" alt="icon for email." id="email">
+          <a href="https://github.com/isabelpham" target="_blank"><img src="images/icons/github.svg" alt="icon for github." id="github"></a>
+          <a href="https://www.linkedin.com/in/isabe1pham/" target="_blank"><img src="images/icons/linkedin.svg" alt="icon for linkedin." id="linkedin"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footerColR">
+      <a href="#top">
+        <div class="footerArrowWrapper">
+          <div class="footerArrowBackground">
+            <div class="footerArrow" id="footerArrow"></div>
+          </div>
+        </div>
+      </a>      
+      </div>
+  </div>
+    <div class="lastUpdated">Last updated January 5, 2023</div>
+  </div>
+  
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</body>
+</html>
