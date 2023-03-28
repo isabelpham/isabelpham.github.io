@@ -1,9 +1,9 @@
 /* made all element with 0 margin and padding + all font color is now brown */
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 500;
   color: rgb(42, 33, 27);
   font-size: 1.5vw;
@@ -27,14 +27,14 @@
   width: 80%;
   height: auto;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 /* decorative link box */
 .linkBox {
   background-color: rgb(25, 98, 61, 0.1);
   display: inline;
-  padding: .5rem 1.1rem;
+  padding: 0.5rem 1.1rem;
   border-radius: 1vh;
   font-size: 1.25rem;
   color: rgb(25, 98, 61);
@@ -44,11 +44,11 @@
 .navbar {
   padding: 5rem;
   position: fixed;
-  top: 0
+  top: 0;
 }
 
 .navWrapper {
-  width:100%;
+  width: 100%;
   position: fixed;
   z-index: 10;
   background-color: white;
@@ -64,9 +64,9 @@
   padding-top: 7rem;
 }
 
-.myWork{
+.myWork {
   padding: 4rem;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 .greentext {
@@ -87,10 +87,9 @@
   padding-top: 7rem;
 }
 
-
 /* ---------------- NAV BAR SECTION ---------------- */
 /* style for navbar */
-.navbar-links ul {  
+.navbar-links ul {
   display: flex;
   margin: 0;
   padding: 0;
@@ -112,7 +111,7 @@
   transition: background-color 350ms ease, color 350ms ease;
   text-decoration: none;
 }
-  
+
 /* Change the color of links on hover */
 .navbar-links li a:hover {
   color: rgb(25, 98, 61);
@@ -135,7 +134,7 @@
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color:  rgb(58, 49, 41);
+  background-color: rgb(58, 49, 41);
   border-radius: 10px;
 }
 
@@ -170,8 +169,8 @@
   }
 
   .navbar-links li a {
-    padding: .5rem 1rem;
-  } 
+    padding: 0.5rem 1rem;
+  }
 
   /* make elements in hamburger appear when pressed on*/
   .navbar-links.active {
@@ -201,7 +200,6 @@
 }
 
 /* ---------------- PROJECT SECTION ---------------- */
-
 
 /* text for tag for type of project */
 .tagCategory {
@@ -238,7 +236,8 @@
 /* card backgroud appearance */
 .cardBackground {
   border-radius: 10px;
-  box-shadow: 0 0 5px 0 rgba(39, 25, 77, 0.02), 0 3px 20px 0 rgba(112, 81, 239, 0.04), 0 10px 28px 0 rgba(39, 25, 77, 0.03);
+  box-shadow: 0 0 5px 0 rgba(39, 25, 77, 0.02),
+    0 3px 20px 0 rgba(112, 81, 239, 0.04), 0 10px 28px 0 rgba(39, 25, 77, 0.03);
   overflow: hidden;
 }
 
@@ -268,14 +267,14 @@ img {
 }
 
 .card_title {
-  color:rgb(58, 49, 41);
+  color: rgb(58, 49, 41);
   font-size: 20px;
   font-weight: 900;
   margin-bottom: 12px;
 }
 
 .card_text {
-  color:rgb(58, 49, 41);
+  color: rgb(58, 49, 41);
   font-size: 18px;
   font-weight: 400;
 }
@@ -288,7 +287,7 @@ img {
 
 /* "view study case" text */
 .viewCS {
-  color: rgb(25, 98, 61) ;
+  color: rgb(25, 98, 61);
   font-size: 20px;
   font-weight: 700;
 }
@@ -322,22 +321,22 @@ img {
 }
 
 /* ------- ANIMATIONS FOR PROJECT CARDS ------- */
- .cardLink:hover {
+.cardLink:hover {
   transition: 350ms ease-in-out;
   transform: scale(1.02);
-} 
+}
 
-.cardLink:hover #arrowBackground{
+.cardLink:hover #arrowBackground {
   transition: 350ms ease-in-out;
   background-color: rgb(25, 98, 61);
-} 
+}
 
-.cardLink:hover #zoomImage{
+.cardLink:hover #zoomImage {
   transform: scale(1.1);
   transition: 350ms ease-in-out;
-} 
+}
 
-.cardLink:hover #arrowColor{
+.cardLink:hover #arrowColor {
   border: solid rgb(255, 255, 255);
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -346,7 +345,7 @@ img {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   transition: 350ms ease-in-out;
-} 
+}
 
 /* ------- screen sizes ------- */
 @media (min-width: 40rem) {
@@ -418,7 +417,7 @@ img {
 }
 
 /* ------- ANIMATIONS ------- */
-.footerArrowBackground:hover #footerArrow{
+.footerArrowBackground:hover #footerArrow {
   border: solid rgb(255, 255, 255);
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -427,12 +426,12 @@ img {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
   transition: 350ms ease-in-out;
-} 
+}
 
 .footerArrowBackground:hover {
   transition: 350ms ease-in-out;
   background-color: rgb(25, 98, 61);
-} 
+}
 
 #email:hover {
   transition: 350ms ease-in-out;
@@ -451,20 +450,20 @@ img {
 
 .lastUpdated {
   text-align: center;
-  color: rgb(25, 98, 61);;
+  color: rgb(25, 98, 61);
   font-size: 16px;
-} 
+}
 
 .copyright {
   text-align: center;
-  color: rgb(25, 98, 61);;
+  color: rgb(25, 98, 61);
   font-size: 18px;
 }
 
 /* ------------------------------- Project Page ----------------------------------------------- */
 
 .bodyText {
-font-size: 20px;
+  font-size: 20px;
 }
 
 .headerText {
@@ -494,7 +493,7 @@ font-size: 20px;
 /* ------------------------------- Project Page ----------------------------------------------- */
 .bodyText {
   font-size: 20px;
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
 
 b {
@@ -528,7 +527,7 @@ a {
 .headerText3 {
   font-weight: bold;
   font-size: 20px;
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
 
 .headerPic {
@@ -539,10 +538,11 @@ a {
   display: flex;
   align-items: top;
   justify-content: space-between;
+  padding-top: 3rem;
 }
 
 .CaseSection {
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .CScontentWrapper {
@@ -561,7 +561,7 @@ a {
   padding-right: 5%;
 }
 
-.CSRight{
+.CSRight {
   width: 65%;
   margin-top: 40px;
 }
@@ -571,7 +571,7 @@ a {
   padding-right: 5%;
 }
 
-.SCWriteUp{
+.SCWriteUp {
   width: 40%;
   margin-top: 40px;
 }
@@ -590,7 +590,8 @@ a {
   border-radius: 10px;
   margin-top: 30px;
   margin-bottom: 30px;
-  box-shadow: 0 0 5px 0 rgba(39, 25, 77, 0.02), 0 3px 20px 0 rgba(112, 81, 239, 0.04), 0 10px 28px 0 rgba(39, 25, 77, 0.03);
+  box-shadow: 0 0 5px 0 rgba(39, 25, 77, 0.02),
+    0 3px 20px 0 rgba(112, 81, 239, 0.04), 0 10px 28px 0 rgba(39, 25, 77, 0.03);
 }
 
 .imageWrapper {
@@ -633,7 +634,6 @@ a {
   justify-content: flex-end;
 }
 
-
 /* ------- screen sizes ------- */
 @media (max-width: 1046px) {
   .CSDetails {
@@ -649,11 +649,10 @@ a {
   .CSLeft {
     width: 100%;
   }
-  
-  .CSRight{
+
+  .CSRight {
     width: 100%;
   }
-  
 }
 
 /* ------------------------------- About Page ----------------------------------------------- */
@@ -683,12 +682,12 @@ a {
 .resumeButton:hover {
   transition: 350ms ease-in-out;
   background-color: rgb(25, 98, 61);
-} 
+}
 
 .resumeButton:hover p {
   transition: 350ms ease-in-out;
   color: white;
-} 
+}
 
 .aboutColL {
   width: 55%;
@@ -709,7 +708,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-  }  
+  }
 
   .aboutColL {
     width: 100%;
@@ -727,4 +726,3 @@ a {
   display: flex;
   gap: 40px;
 }
-
